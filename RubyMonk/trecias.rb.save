@@ -1,0 +1,12 @@
+def palindrome (sentencedowncase_stripped_sentence = sentence.downcase.gsub(" ", "")
+downcase_stripped_sentence == downcase_stripped_sentence.reverse
+word = ""
+sent = ""
+puts "iveskite sakini"
+sent = gets
+puts "pasirinkite zodi:"
+word = gets
+puts "sakinys: " + sent
+puts "ieskomas zodis: " + word 
+puts "zodis pasikartoja " + sent.downcase.split.count(word.downcase).to_s + " kartu"
+
