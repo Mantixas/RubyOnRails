@@ -1,0 +1,26 @@
+# Ivedus skaiciu, dublikuoti kiekviena jo skaiciu, pvz.:
+# ivedus 123, turetu gautis 112233, 112 - 111122 ir t.t.
+n = 0
+sk = 0
+dsk = 0
+nsk = 0
+sk2 = 0
+apverstas = 0
+puts "iveskite norima skaiciu"
+n = gets.chomp
+ 
+while n!=0
+sk = n % 10;
+dsk = dks + sk + sk * 10;
+n = n - sk
+
+#sk = n % 10
+#dsk = 10*sk.to_i+sk.to_i
+#nsk=(100*
+end
+while nsk!=0
+sk2=nsk.to_i%10
+apverstas=apverstas.to_i*10+sk2.to_i
+nsk=nsk.to_i/10
+end
+puts "padvigubintas skaicius: "+apverstas.to_s
